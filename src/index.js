@@ -1,1 +1,1 @@
-console.log("your mum");
+import "./styles.css"
