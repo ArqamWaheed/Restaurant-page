@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
 *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -10,7 +12,7 @@
 body {
   line-height: 1.25;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-family: 'Fredoka', system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 img, picture, video, canvas, svg {
@@ -32,9 +34,13 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Reset above */
 
+:root {
+  --brownclr: #4E3925;
+  --greyclr: rgb(239, 239, 239);
+}
+
 body {
   background-image: url(./images/texturised-white-color-polka-dots-sienna-brown-background_469558-60586.avif);
-
 }
 nav {
   display: flex;
@@ -47,9 +53,9 @@ nav button {
   margin-top: 30px;
   padding: 5px 20px;
   border-radius: 15px;
-  color: #4E3925;
+  color: var(--brownclr);
   font-weight: 600;
-  border: 2px solid #4E3925;
+  border: 2px solid var(--brownclr);
   font-size: 1.3rem;
 }
 
@@ -63,10 +69,13 @@ nav button:hover {
   background: white;
   margin: 0 auto;
   margin-top: 20px;
-  border: 5px solid #4E3925;
+  border: 5px solid var(--brownclr);
 }
 
 #content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   overflow: hidden;
 }
 
@@ -75,8 +84,11 @@ img {
   margin: 0 auto;
 }
 
-.logo {
+.logo, .MenuImg, .ContactImg {
   margin-top: -5%;
+}
+
+.logo { 
   position: relative;
   z-index: 2;
 }
@@ -86,4 +98,23 @@ img {
   position: relative;
   z-index: 1;
   margin-bottom: -10%;
+}
+
+h1 {
+  padding: 5px 25px;
+  width: min-content;
+  font-weight: 700;
+  font-size: 5rem;
+  margin-top: -10%;
+  margin-bottom: 100px;
+  color: var(--brownclr);
+  background-color: var(--greyclr);
+  border: 5px solid var(--brownclr);
+  border-radius: 10px;
+}
+
+.addedContent {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }

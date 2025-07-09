@@ -1,3 +1,8 @@
 import "./styles.css";
-// import {container} from "./Home.js";
+import {container, loadHome} from "./Home.js";
+import {loadMenu} from "./Menu.js";
+import {loadContact} from "./Contact.js";
+
+
+
 

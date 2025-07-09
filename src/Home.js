@@ -2,13 +2,19 @@ import BearLogo from "./images/BearLogo.png";
 import MainText from "./images/MainText.png";
 
 export const container = document.querySelector("#content");
-const img1 = document.createElement("img");
-const img2 = document.createElement("img");
 
-img1.classList.add("logo");
-img2.classList.add("textImage");
-img1.setAttribute("src", BearLogo);
-img2.setAttribute("src", MainText);
+export function loadHome() {
+    const img1 = document.createElement("img");
+    const img2 = document.createElement("img");
+    const div = document.createElement("div");
+    div.classList.add("addedContent");
 
-container.appendChild(img1);
-container.appendChild(img2);
+    img1.classList.add("logo");
+    img2.classList.add("textImage");
+    img1.setAttribute("src", BearLogo);
+    img2.setAttribute("src", MainText);
+
+    container.appendChild(div);
+    div.appendChild(img1);
+    div.appendChild(img2);
+}
