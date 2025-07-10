@@ -1,5 +1,5 @@
 
-````markdown
+
 # 🍽️ Restaurant Page
 
 A dynamic single-page restaurant website built as part of The Odin Project's JavaScript curriculum.
