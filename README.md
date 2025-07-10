@@ -1,5 +1,4 @@
 
-
 # 🍽️ Restaurant Page
 
 A dynamic single-page restaurant website built as part of The Odin Project's JavaScript curriculum.
@@ -42,29 +41,29 @@ A dynamic single-page restaurant website built as part of The Odin Project's Jav
    ```bash
    git clone https://github.com/ArqamWaheed/Restaurant-page.git
    cd Restaurant-page
-````
+
 
 2. **Install dependencies:**
 
-   ```bash
+   ```
    npm install
    ```
 
 3. **Start dev server:**
 
-   ```bash
+   ```
    npm start
    ```
 
 4. **Build for production:**
 
-   ```bash
+   ```
    npm run build
    ```
 
 ## 📁 File Structure Overview
 
-```
+
 Restaurant-page/
 ├── dist/                # Final bundled output
 ├── src/
@@ -76,7 +75,7 @@ Restaurant-page/
 ├── webpack.config.js
 ├── package.json
 └── .gitignore
-```
+
 
 ## 🧪 Future Improvements
 
