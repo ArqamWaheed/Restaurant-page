@@ -6,6 +6,7 @@ export function loadContact() {
     const text = document.createElement("h1");
     const div = document.createElement("div");
     text.style.marginTop = 0;
+    
     div.classList.add("addedContent");
     text.textContent = "Contact Us Now!";
     img.classList.add("ContactImg");
