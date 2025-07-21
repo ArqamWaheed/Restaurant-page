@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap);
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.25;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Fredoka', system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+/* Reset above */
+
+:root {
+  --brownclr: #4E3925;
+  --greyclr: rgb(239, 239, 239);
+}
+
+body {
+  background-image: url(4ec916f5fc0a862e9a18.avif);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+nav button {
+  margin-top: 30px;
+  padding: 5px 20px;
+  border-radius: 15px;
+  color: var(--brownclr);
+  font-weight: 600;
+  border: 2px solid var(--brownclr);
+  font-size: 1.3rem;
+}
+
+nav button:hover {
+  cursor: pointer;
+  background-color: #ffffffea;
+}
+
+.main {
+  width: 40vw;
+  background: white;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 5px solid var(--brownclr);
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+img {
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.logo, .MenuImg, .ContactImg {
+  margin-top: -5%;
+}
+
+.logo { 
+  position: relative;
+  z-index: 2;
+}
+
+.textImage {
+  margin-top: -30%;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -10%;
+}
+
+h1 {
+  padding: 5px 25px;
+  width: min-content;
+  font-weight: 700;
+  font-size: 5rem;
+  margin-top: -10%;
+  margin-bottom: 100px;
+  color: var(--brownclr);
+  background-color: var(--greyclr);
+  border: 5px solid var(--brownclr);
+  border-radius: 10px;
+}
+
+.addedContent {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
